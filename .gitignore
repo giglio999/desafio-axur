@@ -1,0 +1,20 @@
+# Arquivos compilados do Python
+__pycache__/
+*.pyc
+
+# Logs
+scraper_inference.log
+
+# Ambientes virtuais
+.env/
+.env       # <- arquivo de ambiente
+venv/
+.venv/
+
+# Arquivos de sistema (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Resultados gerados pelo script (pode recriar)
+inference_result.json
+scraped_images/
